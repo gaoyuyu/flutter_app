@@ -1,9 +1,6 @@
 # flutter_app
+
 flutter练习项目
-
-
-# flutter_app
-
 A new Flutter application.
 
 ## Getting Started
