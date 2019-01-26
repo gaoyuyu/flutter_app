@@ -44,10 +44,10 @@ class MyApp extends StatelessWidget {
       ),
     );
     return MaterialApp(
-        title: "Positiond",
+        title: "Card",
         home: new Scaffold(
             appBar: new AppBar(
-              title: new Text("Positiond Widget"),
+              title: new Text("Card Widget"),
             ),
             body: new Center(
               child: card,
