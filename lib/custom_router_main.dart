@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'search_bar_demo.dart';
+import 'pages/pages.dart';
 
 void main() => runApp(new MyApp());
 
@@ -7,9 +7,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData.light(),
-      home: SearchBarDemo(),
+      title: "Flutter Bottom Navigation Bar",
+      //自定义主体样本
+      theme: ThemeData(
+        primarySwatch: Colors.red
+      ),
+      home: FirstPage(),
     );
   }
 }
-
