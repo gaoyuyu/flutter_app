@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'tool_tips_demo.dart';
+import 'right_back_demo.dart';
+
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
@@ -7,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.light(),
-      home: ToolTipsDemo(),
+      home: RightBackDemo(),
     );
   }
 }
